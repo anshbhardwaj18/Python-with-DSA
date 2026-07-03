@@ -436,12 +436,38 @@
 # print(d)
 
 # QUES-4
-d1 = {10:100,20:200,30:300,40:300}
-d2 = {40:400,50:500,60:600,70:700}
+# d1 = {10:100,20:200,30:300,40:300}
+# d2 = {40:400,50:500,60:600,70:700}
 
-for i in d2:
-    if i in d1.keys():
-        d1[i] += d2[i]
-    else:
-        d1[i] = d2[i]
-print(d1)
+# for i in d2:
+#     if i in d1.keys():
+#         d1[i] += d2[i]
+#     else:
+#         d1[i] = d2[i]
+# print(d1)
+
+# ************************ EXCEPTIONAL HANDLING ***************************
+# a = int(input("Enter a number : "))
+
+# try:
+#     b = 10/a
+#     print(b)
+# except Exception as e:
+#     print("Error accured")
+
+# Ques-1 of exceptional handling
+
+# try:
+#     print(10/0)
+# except:
+#     print("Error")
+# finally:
+#     print("Finally block always run whether is an error or not")
+
+# Ques-2 Raise keyword
+
+# age = -5
+# if age < 0:
+#     raise ValueError("Age can't be negative")
+
+# ************************* OOPS in python ***********************
